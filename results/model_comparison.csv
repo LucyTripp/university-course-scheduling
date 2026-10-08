@@ -1,0 +1,3 @@
+model,objective_mode,status,classes_scheduled,weighted_student_conflicts,conflicting_class_pairs,total_unused_seats,average_room_utilization_pct,solve_time_seconds,objective_value,best_objective_bound,student_conflict_reduction_vs_baseline_pct,room_utilization_change_vs_baseline_pp
+Room-Efficiency Baseline,room_efficiency,OPTIMAL,525,2071,1016,3239,85.48644866493716,8.000460899,3239.0,3239.0,0.0,0.0
+Student-Conflict Optimized,student_conflicts,OPTIMAL,525,152,128,3796,83.90758315318011,9.872188927,152.0,152.0,92.66055045871559,-1.5788655117570443

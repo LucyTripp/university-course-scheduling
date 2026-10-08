@@ -1,0 +1,61 @@
+
+Running room-efficiency baseline...
+
+=== Room-Efficiency Baseline ===
+Solver status: OPTIMAL
+Schedulable classes: 525
+Assignment variables: 25,645
+Room overlap constraints: 834,440
+Room capacity constraints: 18,456
+Room-sharing class pairs: 6
+Instructor overlap constraints: 18,221
+Committed room-slots blocked: 156
+Committed instructor-slots blocked: 360
+Room-waste objective terms: 17,003
+Solve time: 8.00 seconds
+Classes scheduled: 525
+Objective (unused seats): 3,239
+Best objective bound: 3,239
+Verified weighted student conflicts: 2,071
+Conflicting class pairs: 1,016
+Total unused seats: 3,239
+Average room utilization: 85.5%
+Schedule written to: results/baseline_room_efficiency_schedule.csv
+Conflict report written to: results/baseline_student_conflicts.csv
+
+Running student-conflict optimization...
+
+=== Student-Conflict Optimized ===
+Solver status: OPTIMAL
+Schedulable classes: 525
+Assignment variables: 25,645
+Time-choice variables: 4,614
+Room overlap constraints: 834,440
+Room capacity constraints: 18,456
+Room-sharing class pairs: 6
+Instructor overlap constraints: 18,221
+Committed room-slots blocked: 156
+Committed instructor-slots blocked: 360
+Student-pair records modeled: 22,660
+Student-conflict variables: 471
+Student-conflict link constraints: 3,126
+Student fixed-time penalty terms: 9,436
+Solve time: 9.87 seconds
+Classes scheduled: 525
+Objective (weighted student conflicts): 152
+Best objective bound: 152
+Verified weighted student conflicts: 152
+Conflicting class pairs: 128
+Total unused seats: 3,796
+Average room utilization: 83.9%
+Schedule written to: results/student_optimized_schedule.csv
+Conflict report written to: results/student_optimized_conflicts.csv
+
+=== Model Comparison ===
+                     Model  Status  Classes  Weighted conflicts  Conflict pairs  Unused seats Room util. % Solve sec.
+  Room-Efficiency Baseline OPTIMAL      525                2071            1016          3239         85.5       8.00
+Student-Conflict Optimized OPTIMAL      525                 152             128          3796         83.9       9.87
+
+Student-conflict reduction versus the room-efficiency baseline: 92.7%
+Change in average room utilization: -1.6 percentage points
+Comparison written to: results/model_comparison.csv

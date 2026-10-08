@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+# Local benchmark inputs and generated tables are not distributed.
+data/*.xml
+data/processed/
+outputs/
+
+data/processed*/

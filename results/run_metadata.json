@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-08",
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "ortools": "9.15.6755",
+  "workers": 8,
+  "max_solve_seconds_per_model": 120,
+  "inputs_sha256": {
+    "rooms.csv": "55b4018d598546c93d38ae94d0c85bb86ff233a25516fb596c3338990ff7f553",
+    "group_constraints.csv": "ee76693b1e2bf33160cc074769d5f3e2561d8ebdbad64a6b976ab5e0d819e83e",
+    "metadata.csv": "3c08ced21b9bab60636efe84a0b98e2d16f335f47ea83fb16922ee1ad1f78e0f",
+    "constraint_classes.csv": "972d649c06b439933aa978954673b7a898d7afb2033a67073067189f4d73a5e7",
+    "class_pair_conflicts.csv": "e200784c0c2e96ad8038229ab7aec97ad60454e42bf422837aae4795edabbe4f",
+    "class_time_options.csv": "232f9bee39ab614f3690196f4e5c922820d6b7525007391437c44b7ff3c5895b",
+    "students.csv": "6014bc36e5c2aa9366770b1c381a0f10c7bd836994855b3c582163cabaad7aa6",
+    "class_room_options.csv": "d3c8249b6a19545ad84e800529a6300647863e1d7a9ef1f9ba0457055dfc4881",
+    "class_instructors.csv": "08c2e14ce1e0c35cc79ceb7bfbfe7d85bb3a062cefcf4da4e3ecbfe1a1b658c3",
+    "classes.csv": "492a054cf4b9538b6a06f6ab863b8dbf5dad56c2c0204eeafca610b56948fa2b",
+    "student_classes.csv": "304874be705cdf98f39cced9296d5428b4a7f35ea9d7962304a5631e7564d30e",
+    "student_prohibited_classes.csv": "e50fc082cd613ee57e875dbfe4fecb81df321d3e4ea1d2b0d75c952e2275a032",
+    "student_offerings.csv": "f414e4dd6cfb7b3624c7b9baab24e95a749bf10c37d7acdb45c25ab3fc213cd5",
+    "supplied_xml": "cf295edc9901f52c3f634d2b070620fd3a76f14ed49694570fb2f2c8dad7a732"
+  },
+  "input_basis": "Supplied CSVs, verified against all 13 tables extracted from the matching Purdue C8-2007 XML (class-pair row tie ordering ignored).",
+  "source_url": "https://www.unitime.org/data/josh/pu-fal07-ms.zip"
+}
